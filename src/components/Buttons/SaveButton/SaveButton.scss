@@ -1,0 +1,14 @@
+.save-button {
+  background-color: lightgreen;
+  border: 2px solid;
+  margin: 1px 8px;
+  box-shadow: 2px 2px;
+  position: absolute;
+  right: 0px;
+  bottom: 10px;
+  cursor: pointer;
+}
+
+.save-button:disabled {
+  pointer-events: none;
+}

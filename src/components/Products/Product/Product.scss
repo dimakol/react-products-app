@@ -1,0 +1,19 @@
+.product {
+  border: 3px solid black;
+  padding: 5px;
+  margin: 10px;
+  position: relative;
+  display: flex;
+  width: 750px;
+  cursor: pointer;
+
+  &.selected {
+    background-color: lightblue;
+  }
+
+  .image {
+    height: 80px;
+    width: 100px;
+    margin: 10px;
+  }
+}
