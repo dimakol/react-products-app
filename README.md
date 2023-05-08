@@ -1,4 +1,4 @@
-## Task description
+# Task description
 
 ## Products App
 
@@ -65,3 +65,33 @@ a. Note – this should be last priority, please focus on all other functional r
 b. The main route should be “#/products”.
 
 c. Add the currently selected product id to the route. For example, when entering the route “#/products/2”, the page will display the list with the product details of the product with id 2.
+
+## Tech/framework used
+
+- [ReactJS](https://reactjs.org/)
+- [Redux](https://redux.js.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [SASS](https://sass-lang.com/)
+
+## Installation
+
+**Running in development environment**
+
+git, npm and node softwares should be installed before moving on
+
+- git clone https://github.com/dimakol/react-products-app.git
+- cd react-products-app/
+- npm install
+- npm run dev
+
+**Building**
+
+- npm run build
+
+## Deployed to Github pages
+
+https://dimakol.github.io/react-products-app/
+
+## License
+
+MIT © Dima Kolyas
