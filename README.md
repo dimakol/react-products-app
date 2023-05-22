@@ -1,6 +1,4 @@
-# Task description
-
-## Products App
+# Products App
 
 ## Overview
 
@@ -75,18 +73,22 @@ c. Add the currently selected product id to the route. For example, when enterin
 
 ## Installation
 
-**Running in development environment**
+**Running Locally**
 
 git, npm and node softwares should be installed before moving on
 
-- git clone https://github.com/dimakol/react-products-app.git
-- cd react-products-app/
-- npm install
-- npm run dev
+```bash
+git clone https://github.com/dimakol/react-products-app.git
+cd react-products-app
+npm install
+npm run dev
+```
 
-**Building**
+**Building for production**
 
-- npm run build
+```bash
+npm run build
+```
 
 ## Deployed to Github pages
 
@@ -94,4 +96,6 @@ https://dimakol.github.io/react-products-app/
 
 ## License
 
-MIT © Dima Kolyas
+(The MIT License)
+
+Copyright © 2023 Dima Kolyas
